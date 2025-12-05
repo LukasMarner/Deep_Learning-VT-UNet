@@ -3,20 +3,20 @@
 Here are the main differences of used compared with the original README.md file:
 
 - The use of the UV package for the usage of the correct python version needed to run this whole repository. Briefly the environtment set up needed the use of UV
-- pip install uv.
-- Create a file for the uv cache called uv_cache.
-- For all next commands requiring the use of pip please use uv.
+    - pip install uv.
+    - Create a file for the uv cache called uv_cache.
+    - For all next commands requiring the use of pip please use uv.
 
 - For the data selection the precise folders to download are in the following directory:
-- Choose the Google Drive folder in the Data Icon.
-- Download the Task01_BrainTumor.tar dataset.
-- Follow the next instructions explained in the Data Preparation section.
+    - Choose the Google Drive folder in the Data Icon.
+    - Download the Task01_BrainTumor.tar dataset.
+    - Follow the next instructions explained in the Data Preparation section.
 
 - Training using the bash script train_vtunet_small.sh file.
-- Change the paths according to your own directory set up.
+    - Change the paths according to your own directory set up.
 
 - Testing using the bash script test_vtunet.sh file.
-- Change the paths according to your own directory set up.
+    - Change the paths according to your own directory set up.
 
 # VT-UNet
 This repo contains the supported pytorch code and configuration files to reproduce 3D medical image segmentaion results of [VT-UNet](https://arxiv.org/pdf/2111.13300.pdf). 
