@@ -12,7 +12,7 @@ Here are the main differences of used compared with the original README.md file:
     - Download the Task01_BrainTumor.tar dataset.
     - Follow the next instructions explained in the Data Preparation section.
 
-- Training using the bash script train_vtunet_small.sh file.
+- Training using the bash script train_vtunet_small.sh file or the train_scratch.sh file.
     - Change the paths according to your own directory set up.
 
 - Testing using the bash script test_vtunet.sh file.
